@@ -101,7 +101,6 @@ ul{
 
      body{
      display: block;
-    margin: 8px;
     font-family: var(--main-font);
     background-color: var(--primary-background-color);
     }
@@ -326,6 +325,15 @@ ul{
         border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     }
+
+    .teams-wrapper{
+        text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #ffffff;
+    }
         
 
     .teams-persons{
@@ -409,9 +417,7 @@ ul{
 .filter{
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 1176px;
+   
 }
 
 
